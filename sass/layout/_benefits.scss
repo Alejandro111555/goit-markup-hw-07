@@ -23,20 +23,6 @@
   margin-right: 30px;
 }
 
-.photo-container {
-  display: flex;
-  margin: -15px;
-}
-
-.item-photo-container {
-  flex-basis: calc(100% / 3 - 30px);
-  margin: 15px;
-  position: relative;
-}
-.item-photo-container:not(:last-child) {
-  margin-right: 15px;
-}
-
 .our-team-list {
   display: flex;
   margin: -15px;
@@ -65,8 +51,4 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
-}
-
-.main-section-image {
-  padding-bottom: 94px;
 }
