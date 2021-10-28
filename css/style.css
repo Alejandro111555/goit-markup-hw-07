@@ -1,12 +1,3 @@
-.footer-contakts-link {
-  font-size: 14px;
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 /* позиционирование индекс.хтмл */
 
 /* разметка странички портфолио */
@@ -160,20 +151,7 @@ footer.header-logo {
 }
 
 /* подчёркивание ссылки текущей страницы*/
-.header-item {
-  display: block;
-}
 
-.current::after {
-  content: "";
-  display: block;
-  position: absolute;
-  bottom: -1.5px;
-  width: 100%;
-  height: 4px;
-  background: var(--header-link-color);
-  border-radius: 2px;
-}
 /* Описание картинок в main-section-image */
 
 /*footer mail box*/
