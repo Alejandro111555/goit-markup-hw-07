@@ -53,3 +53,19 @@
   color: var(--white-color-text);
   display: flex;
 }
+.footer-mail-send {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--header-link-color);
+  padding-right: 10px;
+  color: var(--white-color-text);
+}
+.footer-button-icon {
+  fill: var(--white-color-text);
+}

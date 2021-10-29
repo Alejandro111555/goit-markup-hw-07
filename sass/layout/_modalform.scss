@@ -194,3 +194,22 @@ textarea.holder-text-style {
     background-size: cover;
   }
 }
+.form-field {
+  position: relative;
+}
+.input-img {
+  position: absolute;
+  display: inline-block;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input-wrap {
+  display: block;
+  position: relative;
+  height: 40px;
+}
+label.textarea-label {
+  margin-bottom: 20px;
+}
