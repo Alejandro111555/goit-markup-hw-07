@@ -102,6 +102,13 @@ body {
   color: var(--white-color-text);
 }
 
+footer.header-logo {
+  display: block;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 20px;
+}
+
 .modal-window {
   position: absolute;
   top: 50%;
@@ -430,6 +437,10 @@ body {
   cursor: pointer;
 }
 
+.clouse-icon:hover, .clouse-icon:focus {
+  fill: var(--header-link-color);
+}
+
 .close {
   display: flex;
   justify-content: center;
@@ -490,8 +501,7 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-wrap:focus,
-.input-wrap:hover {
+.input-wrap:focus, .input-wrap:hover {
   border-color: var(--header-link-color);
 }
 
@@ -579,8 +589,23 @@ textarea.holder-text-style {
 
 .form-btn {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white-color-text);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+}
+
+.form-btn:hover, .form-btn:focus {
+  background-color: #188ce8;
 }
 
 .form-checkbox {
@@ -792,6 +817,16 @@ textarea.holder-text-style {
 
 .footer-contakts-link:hover, .footer-contakts-link:focus {
   color: var(--header-link-color);
+}
+
+.footer {
+  display: block;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.item-contakts-link:first-child {
+  margin-bottom: 9px;
 }
 
 .footer-container {

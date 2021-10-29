@@ -14,6 +14,10 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
+  &:hover,
+  &:focus {
+    fill: var(--header-link-color);
+  }
 }
 
 .close {
@@ -74,11 +78,10 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-}
-
-.input-wrap:focus,
-.input-wrap:hover {
-  border-color: var(--header-link-color);
+  &:focus,
+  &:hover {
+    border-color: var(--header-link-color);
+  }
 }
 
 .textarea-wrap {
@@ -159,22 +162,35 @@ textarea.holder-text-style {
 
 .form-btn {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--white-color-text);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: rgba(24, 140, 232, 1);
+  }
 }
-
 .form-checkbox {
   position: absolute;
   &:focus + .checkbox,
   &:hover + .checkbox {
     fill: var(--header-link-color);
   }
-}
-
-.form-checkbox:checked + .checkbox {
-  border-radius: 2px;
-  fill: var(--header-link-color);
-  background-color: var(--header-link-color);
-  background-image: url(../images/Vector-2.svg);
-  background-size: cover;
+  &:checked + .checkbox {
+    border-radius: 2px;
+    fill: var(--header-link-color);
+    background-color: var(--header-link-color);
+    background-image: url(../images/Vector-2.svg);
+    background-size: cover;
+  }
 }
