@@ -26,9 +26,9 @@ footer-mail-box {
   width: 44px;
   height: 44px;
   display: flex;
-}
-.footer-social-item + .footer-social-item {
-  margin-left: 10px;
+  & + .footer-social-item {
+    margin-left: 10px;
+  }
 }
 
 .footer-social-link {
@@ -42,13 +42,13 @@ footer-mail-box {
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--header-link-color);
+  }
 }
 .footer-social-icon {
   width: 20px;
   height: 20px;
   fill: var(--white-color-text);
-}
-.footer-social-link:focus,
-.footer-social-link:hover {
-  background-color: var(--header-link-color);
 }
