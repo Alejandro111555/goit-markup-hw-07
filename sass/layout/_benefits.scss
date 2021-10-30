@@ -38,3 +38,13 @@
   font-size: 14px;
   line-height: 1.71;
 }
+.main-icon {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--bg-our-team);
+  border-radius: 4px;
+}
