@@ -1,4 +1,4 @@
-.main-title-box {
+.title-box {
   max-width: 1600px;
   text-align: center;
   margin: 0 auto;
@@ -10,7 +10,7 @@
     ),
     url(../images/bg.jpg);
 }
-.home-page-title {
+.title-box__heading {
   width: 55%;
   margin: 0 auto;
   font-weight: 900;
@@ -20,4 +20,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color-text);
+}
+.title-box {
+  padding: 200px 0;
 }

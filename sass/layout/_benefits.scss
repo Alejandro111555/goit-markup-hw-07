@@ -1,29 +1,25 @@
-.main-title-box {
-  padding: 200px 0;
-}
-
-.main-section-text {
+.benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.list-position {
+.benefits-list {
   display: flex;
 }
 
-.list-position:not(:last-child) {
+.benefits-list:not(:last-child) {
   margin-left: 15px;
 }
 
-.item-position {
+.benefits-item {
   flex-basis: calc((100% - (3 * 30px)) / 4);
 }
 
-.item-position:not(:last-child) {
+.benefits-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.main-heading {
+.benefits-heading {
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
@@ -32,13 +28,13 @@
   color: var(--primary-title-color);
 }
 
-.main-paragraph {
+.benefits-paragraph {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
-.main-icon {
+.benefits-icon {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;

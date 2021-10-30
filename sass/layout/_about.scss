@@ -1,7 +1,7 @@
-.main-section-image {
+.ourDewelop {
   padding-bottom: 94px;
 }
-.main-photo-heading {
+.ourDewelop-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -9,19 +9,19 @@
   margin-bottom: 50px;
   color: var(--primary-title-color);
 }
-.photo-container {
+.ourDewelop-list {
   display: flex;
   margin: -15px;
 }
-.item-photo-container {
+.ourDewelop-item {
   flex-basis: calc(100% / 3 - 30px);
   margin: 15px;
   position: relative;
 }
-.item-photo-container:not(:last-child) {
+.ourDewelop-item:not(:last-child) {
   margin-right: 15px;
 }
-.main-description-image {
+.ourDewelop-description {
   position: absolute;
   display: flex;
   justify-content: center;

@@ -483,14 +483,14 @@ footer.header-logo {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.main-title-box {
+.title-box {
   max-width: 1600px;
   text-align: center;
   margin: 0 auto;
   background: linear-gradient(145deg, rgba(2, 0, 36, 0.4) 0%, rgba(121, 56, 9, 0.574965) 50%, rgba(0, 212, 255, 0.4) 100%), url(../images/bg.jpg);
 }
 
-.home-page-title {
+.title-box__heading {
   width: 55%;
   margin: 0 auto;
   font-weight: 900;
@@ -502,32 +502,32 @@ footer.header-logo {
   color: var(--white-color-text);
 }
 
-.main-title-box {
+.title-box {
   padding: 200px 0;
 }
 
-.main-section-text {
+.benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.list-position {
+.benefits-list {
   display: flex;
 }
 
-.list-position:not(:last-child) {
+.benefits-list:not(:last-child) {
   margin-left: 15px;
 }
 
-.item-position {
+.benefits-item {
   flex-basis: calc((100% - (3 * 30px)) / 4);
 }
 
-.item-position:not(:last-child) {
+.benefits-item:not(:last-child) {
   margin-right: 30px;
 }
 
-.main-heading {
+.benefits-heading {
   margin-bottom: 10px;
   font-weight: bold;
   font-size: 14px;
@@ -536,14 +536,14 @@ footer.header-logo {
   color: var(--primary-title-color);
 }
 
-.main-paragraph {
+.benefits-paragraph {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.main-icon {
+.benefits-icon {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
@@ -782,11 +782,11 @@ label.textarea-label {
   margin-bottom: 20px;
 }
 
-.main-section-image {
+.ourDewelop {
   padding-bottom: 94px;
 }
 
-.main-photo-heading {
+.ourDewelop-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -795,22 +795,22 @@ label.textarea-label {
   color: var(--primary-title-color);
 }
 
-.photo-container {
+.ourDewelop-list {
   display: flex;
   margin: -15px;
 }
 
-.item-photo-container {
+.ourDewelop-item {
   flex-basis: calc(100% / 3 - 30px);
   margin: 15px;
   position: relative;
 }
 
-.item-photo-container:not(:last-child) {
+.ourDewelop-item:not(:last-child) {
   margin-right: 15px;
 }
 
-.main-description-image {
+.ourDewelop-description {
   position: absolute;
   display: flex;
   justify-content: center;
