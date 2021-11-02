@@ -205,6 +205,11 @@ footer.header-logo {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   outline: 0px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.online-input:hover, .online-input:focus {
+  border-color: var(--header-link-color);
 }
 
 .online-btn-icon {
@@ -270,11 +275,13 @@ footer.header-logo {
 .filter:focus, .filter:hover {
   color: var(--white-color-text);
   background: var(--header-link-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .btn-active {
   color: var(--white-color-text);
   background: var(--header-link-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .button-container {
@@ -282,6 +289,10 @@ footer.header-logo {
   align-items: center;
   justify-content: center;
   margin-bottom: 50px;
+}
+
+.list-item-container {
+  border-radius: 4px;
 }
 
 .list-item-container:focus, .list-item-container:hover {
