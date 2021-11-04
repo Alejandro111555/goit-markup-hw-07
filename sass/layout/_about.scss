@@ -17,10 +17,11 @@
   flex-basis: calc(100% / 3 - 30px);
   margin: 15px;
   position: relative;
+  &:not(:last-child) {
+    margin-right: 15px;
+  }
 }
-.ourDewelop-item:not(:last-child) {
-  margin-right: 15px;
-}
+
 .ourDewelop-description {
   position: absolute;
   display: flex;

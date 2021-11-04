@@ -118,7 +118,7 @@ footer.header-logo {
   width: 528px;
   height: 581px;
   background: var(--white-color-text);
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 4px;
 }
 
@@ -275,13 +275,13 @@ footer.header-logo {
 .filter:focus, .filter:hover {
   color: var(--white-color-text);
   background: var(--header-link-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .btn-active {
   color: var(--white-color-text);
   background: var(--header-link-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .button-container {
@@ -482,7 +482,7 @@ footer.header-logo {
 }
 
 .hero-container-link:hover, .hero-container-link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero-container-link:hover .description,
@@ -854,8 +854,24 @@ label.textarea-label {
   color: var(--primary-title-color);
 }
 
+.our-team-list {
+  display: flex;
+  margin: -15px;
+}
+
+.our-team-item {
+  flex-basis: calc(100% / 4 - 30px);
+  margin: 15px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.our-team-item:not(:last-child) {
+  margin-right: 15px;
+}
+
 .name-card {
-  padding: 30px 32px;
+  padding: 30px 27px;
   background-color: var(--white-color-text);
 }
 
@@ -873,22 +889,6 @@ label.textarea-label {
   line-height: 1.19;
   text-align: center;
   margin-bottom: 16px;
-}
-
-.our-team-list {
-  display: flex;
-  margin: -15px;
-}
-
-.our-team-item {
-  flex-basis: calc(100% / 4 - 30px);
-  margin: 15px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.our-team-item:not(:last-child) {
-  margin-right: 15px;
 }
 
 .main-clients {
